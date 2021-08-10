@@ -1,15 +1,50 @@
 <!DOCTYPE html>
+
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Anoitecer</title>
 </head>
+
 <body>
     <section>
-     <img src="bg.jpg" id="bg">
-     <img src="moon.png" id="moon">
-     <img src="mountain.png" id="mountain">
-     <img src="road.png" id="road">
-     <h2 id="text">Anoitecer</h2>
+        <img src="bg.jpg" id="bg">
+        <img src="moon.png" id="moon">
+        <img src="mountain.png" id="mountain">
+        <img src="road.png" id="road">
+        <h2 id="text">Anoitecer</h2>
     </section>
+    <script type="text/javascript">
+        let bg = document.getElementById("bg");
+        let moon = document.getElementById("moon");
+        let mountain = document.getElementById("mountain");
+        let road = document.getElementById("road");
+        let text = document.getElementById("text");
+
+        window.addEventListener('scroll', function () {
+            var value = window.scrollY;
+
+            bg.style.top = value * 0.5 + 'px';
+            moon.style.left = -value * 0.5 + 'px';
+            mountain.style.top = -value * 0.15 + 'px';
+            road.style.top = value * 0.15 + 'px';
+            text.style.top = value * 1 + 'px';
+        })
+    </script>
+    <audio autoplay="autoplay" controls="controls">
+        <source src="luar1.mp3" type="audio/mp3" />
+        </audio>
+        
+     <H2>Era uma noite de luar. Quase não se via estrelas, tão clara estava a Lua. O mar estava calmo, a maré alta e havia pouco espaço na areia. Mesmo assim, deitaram-se.
+
+        Olharam-se. O olhar de cumplicidade era o mesmo de sempre. Uma lágrima caiu na face rosada de Maria. Abraçaram-se. A luz da Lua banhava seus corpos como o clarão de um farol. Voltaram os rostos para o céu, admirando a noite. Só se ouvia o barulho calmo das ondas quebrando na praia. Ninguém por perto, nenhuma música, nenhum assovio. Nem do vento. 
+
+        Mas o silêncio falava pelos dois. Joaquim soltou um longo suspiro. Um misto de tristeza e de alívio. Maria apertou-lhe a mão e ficaram assim por horas sob o clarão da lua, olhando o céu, ouvindo o mar calmo.      
+
+      Uma estrela cadente surgiu no céu. Maria fechou os olhos, pedindo que aquela noite durasse para sempre. Olhou para Joaquim e ele também estava fazendo seu pedido. Entreolharam-se e lágrimas rolaram dos olhos de ambos. Chorando, agradeceram a companhia um do outro naqueles tempos de guerra. Abraçaram-se. Um abraço forte, sentido. Viveram juntos momentos difíceis, convivendo com a dor, o sofrimento e a morte de jovens soldados combatentes na França. Não fosse por Joaquim, talvez Maria não suportasse tanta dor e angústia. 
+
+      Ele fora o homem de sua vida. Filha de imigrantes portugueses, Maria deixara de ser virgem durante a guerra e vivera com intensidade aquela paixão. Não queria mais cuidar de soldados feridos e doentes, mas também não queria que a guerra acabasse, pois com ela acabaria aquele amor. 
+
+      A guerra acabara, ambos salvaram-se, estavam vivos, mas era o fim. O médico do hospital dos combatentes voltaria para o Porto, em Portugal, onde sua esposa o esperava com seus filhos. Sim, era a última vez que Maria via Joaquim.</H2>
 </body>
+
 </html>
