@@ -1,5 +1,5 @@
 # Projeto AnoitecerCSSParallax 
-## Projeto pessoal utilizando metodologias do Parallax em CSS, site intuitivo com a lua e o texto principal sendo os objetos principal da metodologia dando sentido de imersão ao usuário.
+## Projeto pessoal utilizando metodologias do Parallax em CSS, O efeito traz um sentido de imersão ao usuário.
 
 ## 
 
