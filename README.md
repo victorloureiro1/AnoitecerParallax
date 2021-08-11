@@ -1,5 +1,5 @@
-# SITE ANOITECER 
-## Projeto pessoal utilizando metodologias do Parallax em CSS, site intuitivo com a lua sendo o objeto principal da metodologia..
+# Projeto AnoitecerCSSParallax 
+## Projeto pessoal utilizando metodologias do Parallax em CSS, site intuitivo com a lua e o texto principal sendo os objetos principal da metodologia..
 
 ## 
 
