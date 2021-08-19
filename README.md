@@ -1,4 +1,4 @@
-# Projeto AnoitecerCSSParallax 
+# Projeto Anoitecer Parallax 
 ## Projeto pessoal utilizando metodologias do Parallax em CSS, O efeito traz um sentido de imersão ao usuário.
 
 ## 
